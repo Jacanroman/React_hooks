@@ -8,6 +8,7 @@ import HookCounterThree from './components/hookCounter3';
 import HookCounterFour from './components/hookCounter4';
 import ClassCounterOne from './components/classCounterOne'
 import HookCounterEffect from './components/hookCounterEffect';
+import HookMouse from './components/hookMouse'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <HookCounterFour />
       <ClassCounterOne />
       <HookCounterEffect />
+      <HookMouse />
       <Toggle />
       
     </div>
