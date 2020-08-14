@@ -9,6 +9,9 @@ import HookCounterFour from './components/hookCounter4';
 import ClassCounterOne from './components/classCounterOne'
 import HookCounterEffect from './components/hookCounterEffect';
 import HookMouse from './components/hookMouse'
+import MouseContainer from './components/MouseContainer'
+import InternalHookCounter from './components/intervalHookCounter'
+import DataFetching from './components/dataFecthing'
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
       <ClassCounterOne />
       <HookCounterEffect />
       <HookMouse />
+      <MouseContainer />
+      <InternalHookCounter />
+      <DataFetching />
       <Toggle />
       
     </div>
