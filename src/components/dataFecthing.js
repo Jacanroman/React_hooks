@@ -19,10 +19,12 @@ function DataFetching(){
 
     return(
         <div>
-            <h1>List of the post </h1>
-            {
-                posts.map(post => <li key={post.id}>{post.title}</li>)
-            }
+            <h1>List of the post. Fetching data </h1>
+            <ul>
+                {
+                    posts.map(post => <li key={post.id}>{post.title}</li>)
+                }
+            </ul>
         </div>
     )
 }

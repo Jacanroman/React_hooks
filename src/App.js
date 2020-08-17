@@ -12,6 +12,7 @@ import HookMouse from './components/hookMouse'
 import MouseContainer from './components/MouseContainer'
 import InternalHookCounter from './components/intervalHookCounter'
 import DataFetching from './components/dataFecthing'
+import DataFetching2 from './components/dataFetching2';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <MouseContainer />
       <InternalHookCounter />
       <DataFetching />
+      <DataFetching2 />
       <Toggle />
       
     </div>
