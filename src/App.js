@@ -14,6 +14,8 @@ import InternalHookCounter from './components/intervalHookCounter'
 import DataFetching from './components/dataFecthing'
 import DataFetching2 from './components/dataFetching2';
 import ComponentC from './components/context/ComponentC';
+import UseReduceCounter from './components/useReduceCounter';
+
 
 
 export const UserContext = React.createContext()
@@ -42,6 +44,8 @@ function App() {
           <ComponentC />
         </ChannelContext.Provider> 
       </UserContext.Provider>
+
+      <UseReduceCounter />
       
       <Toggle />
       
