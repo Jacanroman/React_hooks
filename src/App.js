@@ -13,6 +13,12 @@ import MouseContainer from './components/MouseContainer'
 import InternalHookCounter from './components/intervalHookCounter'
 import DataFetching from './components/dataFecthing'
 import DataFetching2 from './components/dataFetching2';
+import ComponentC from './components/context/ComponentC';
+
+
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
+
 
 function App() {
 
@@ -30,6 +36,13 @@ function App() {
       <InternalHookCounter />
       <DataFetching />
       <DataFetching2 />
+      
+      <UserContext.Provider value={'Javier'}>
+        <ChannelContext.Provider value={'Candela'}>
+          <ComponentC />
+        </ChannelContext.Provider> 
+      </UserContext.Provider>
+      
       <Toggle />
       
     </div>
